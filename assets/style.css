@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: #422d9c;
+}
+
+.page-title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    color: rgb(69, 112, 255);
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+#hero {
+    background-image: url("https://www.ancient.eu/img/c/p/1200x627/8754.jpg?v=1599533104");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section-header {
+    width: 30%;
+    margin: 30px 20px;
+    font-size: 30px;
+    color: rgb(3, 105, 5);
+    /*border-right: 5px black solid; */
+}
+
+.about-me-content {
+    display: inline-block;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.portfolio-grid div {
+    border-radius: 10px;
+    margin: 40px 20px;
+    
+}
+
+.portfolio-grid-1 {
+    
+}
+
+.portfolio-grid-2, .portfolio-grid-3 {
+    
+}
