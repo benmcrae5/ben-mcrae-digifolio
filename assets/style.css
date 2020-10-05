@@ -117,6 +117,7 @@ header nav li a {
 
 .portfolio-grid img {
     max-height: 100%;
+    min-width: 100%;
     object-fit: cover;
 }
 
@@ -157,9 +158,18 @@ footer div {
 }
 
 
-/*@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
+    .section-container {
+        flex-flow: column;
+    }
 
+    .section-header {
+        border-bottom: rgb(124,107,153) 5px solid;
+    }
 
+    .section-container div {
+        border-left: none;
+    }
 }
 
-*/
+
